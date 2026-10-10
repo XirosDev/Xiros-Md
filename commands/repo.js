@@ -2,7 +2,7 @@ module.exports = async (sock, m, args) => {
     const repoText = `╭──《 *⚙️𝐗ɪʀᴏs 𝐌ᴅ ʀᴇᴘᴏsɪᴛᴏʀʏ* 》──
  ➭ 🤖 *ʙᴏᴛ ɴᴀᴍᴇ:* 𝐗ɪʀᴏs 𝐌ᴅ
  ➭ 👑 *ᴏᴡɴᴇʀ:* WeedDev
- ➭ 📦 *ɢɪᴛʜᴜʙ:* [https://github.com/XirosDev/Xiros-Md]
+ ➭ 📦 *ɢɪᴛʜᴜʙ:* https://github.com/XirosDev/Xiros-Md
 ╰───────────`;
 
     const channelInfo = {
