@@ -55,17 +55,17 @@ module.exports = async (sock, m, args) => {
     }
 
     try {
-        await sock.sendMessage(chatId, { text: "🤿 Loading menu..." }, { quoted: m });
+        await sock.sendMessage(chatId, { text: "🤿ʟᴏᴀᴅɪɴɢ ᴍᴇɴᴜ..." }, { quoted: m });
 
         const menu = `
 *╭═════《 𝐗ɪʀᴏs 𝐌ᴅ 》═════*
-*☐ 🤖 ᴏᴡɴᴇʀ:* 𝐋ᴏʀᴅ 𓏴 𝐁ᴇɴɪᴍʀᴜ
-*☐ 👤 ᴜsᴇʀ:* ${pushName}
-*☐ 📜 ᴄᴏᴍᴍᴀɴᴅs:* ${totalCommands}
-*☐ 🎣 ʀᴜɴᴛɪᴍᴇ:* ${uptime}
-*☐ 📦 ᴘʀᴇғɪx:* ${prefix}
-*☐ 🇭🇰 ᴍᴏᴅᴇ:* public
-*☐ 🏷️ ᴠᴇʀsɪᴏɴ:* 2.0.0
+*☐ 🤖 ᴏᴡɴᴇʀ: 𝐋ᴏʀᴅ 𓏴 𝐁ᴇɴɪᴍʀᴜ*
+*☐ 👤 ᴜsᴇʀ: ${pushName}*
+*☐ 📜 ᴄᴏᴍᴍᴀɴᴅs: ${totalCommands}*
+*☐ 🎣 ʀᴜɴᴛɪᴍᴇ: ${uptime}*
+*☐ 📦 ᴘʀᴇғɪx: ${prefix}*
+*☐ 🇭🇰 ᴍᴏᴅᴇ: public*
+*☐ 🏷️ ᴠᴇʀsɪᴏɴ: 2.0.0*
 *╰══════════════════*
 ${menuCategoriesText}
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐋ᴏʀᴅ 𓏴 𝐁ᴇɴɪᴍʀᴜ*
