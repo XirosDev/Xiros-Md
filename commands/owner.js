@@ -32,12 +32,12 @@ module.exports = async (sock, m) => {
 
         // 3. Professional Information Message with sleek box style
         const ownerMessage = `╭──《 *𝐗ɪʀᴏs 𝐌ᴅ ᴏᴡɴᴇʀ* 》──⡱
- ➭ 👤 *ɴᴀᴍᴇ:* ${devName}
- ➭ 🧩 *ᴡʜᴀᴛsᴀᴘᴘ:* wa.me/${ownerNumber}
- ➭ 🤖 *ʙᴏᴛ:* 𝐗ɪʀᴏs 𝐌ᴅ
+ ➭ 👤 *ɴᴀᴍᴇ: ${devName}*
+ ➭ 🧩 *ᴡʜᴀᴛsᴀᴘᴘ: wa.me/${ownerNumber}*
+ ➭ 🤖 *ʙᴏᴛ: 𝐗ɪʀᴏs 𝐌ᴅ*
 ╰────────────
 
-_🇭🇰Contact Dev._`.trim();
+*🇭🇰ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ.*`.trim();
 
         await sock.sendMessage(chatId, { 
             text: ownerMessage,
