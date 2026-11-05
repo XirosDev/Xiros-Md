@@ -15,7 +15,7 @@ module.exports = async (sock, m) => {
  ➭
  ➭ 📦 *sᴛᴀᴛᴜᴛs:* Seul les admis peuvent envoyé des messages
  ➭ 🕸️ *ᴀᴄᴛɪᴏɴ ʙʏ:* @${(m.sender || m.key.participant || "").split('@')[0]}
- ➭ 🤖 *ʙᴏᴛ:* RIFT-MD 
+ ➭ 🤖 *ʙᴏᴛ:* xɪʀᴏx ᴍᴅ
  ➭
 *╰────────────*
         `.trim();
